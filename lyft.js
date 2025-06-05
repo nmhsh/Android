@@ -1,6 +1,1 @@
-var i = 0;
-while(true){
-  i++
-  console.log(i)
-  sleep(50)
-}
+console.log(selector.clickable(true).find())
