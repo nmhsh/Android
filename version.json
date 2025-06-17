@@ -1,0 +1,13 @@
+{
+    "version": "2.1.0",
+    "versionCode": 21,
+    "releaseDate": "2024-01-15",
+    "downloadUrl": "https://github.com/username/repository/releases/latest/download/app.apk",
+    "changelog": [
+        "Thêm tính năng mới",
+        "Sửa lỗi hiển thị",
+        "Cải thiện hiệu suất"
+    ],
+    "forceUpdate": false,
+    "minRequiredVersion": "2.0.0"
+}
