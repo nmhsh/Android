@@ -1,6 +1,6 @@
 {
-    "version": "2.1.0",
-    "versionCode": 21,
-    "downloadUrl": "https://github.com/nmhsh/Android/releases/download/app/app-release.apk",
-    "changelog":"Sửa lỗi hiển thị\ncải thiện hiệu suất."
+    "version": "1.1.0",
+    "versionCode": 100,
+    "downloadUrl": "https://github.com/nmhsh/Android/releases/download/app/nmh.apk",
+    "changelog":"Update New"
 }
