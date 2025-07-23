@@ -19,6 +19,8 @@ function MENU() {
     layout2.addView(ghinho)
     var setup = CheckBox("Setup Color", false)
     layout2.addView(setup)
+    var st = CheckBox("Show Setting", false)
+    layout2.addView(st)
 
     layout1.addView(layout2)
     const tien = SeekBar(100, storages.getNumber("TIEN", 5), "Số tiền cho 1 đơn:", "$")
@@ -32,6 +34,11 @@ function MENU() {
     menu.setView(layout1)
     if (menu.show() == false) {
         exit()
+    }
+    if(st.isChecked()==true){
+        Dialog.alert(storages.getString("Color_Reserve")+"")
+        exit()
+        sleep(1000)
     }
     if (ghinho.isChecked() == true) {
         storages.clear()
