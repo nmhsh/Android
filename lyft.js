@@ -35,7 +35,7 @@ function MENU() {
     if (menu.show() == false) {
         exit()
     }
-    if(st.isChecked()==true){
+    if(st.isChecked() == true){
         Dialog.alert(storages.getString("Color_Reserve")+"")
         exit()
         sleep(1000)
